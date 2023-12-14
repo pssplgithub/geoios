@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
     s.platform          = :ios
 
     s.source            = { :git => "https://github.com/TMLC-Connected-Products/MLBluetoothSDK-iOS.git", :tag => s.version.to_s }
+    s.source            = { :git => "https://github.com/hackiftekhar/IQKeyboardManager.git", :tag => s.version.to_s }
 
     s.swift_version = "5.3"
 
